@@ -1,0 +1,62 @@
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+h3{
+    display: block;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+  table th {
+        border: solid 1px black;
+        padding: 10px 20px;
+        background-color: pink;
+    }
+
+    table td {
+        background-color: pink;
+        padding: 10px 20px;
+    }
+
+    .notice {
+        background-color: #ccf;
+        padding: 5px;
+        display: block;
+    }
+    p{
+        position: absolute;
+        top: 400px;
+    }
+    .register {
+      display: inline;
+      margin-block-start: 13em;
+      margin-block-end: 5em;
+      margin-inline-start: 2px;
+      margin-inline-end: 2px;
+    }
+
+    header, footer {
+      width: 100%;
+      padding: 10px;
+      background: #c52f24;
+      color: #fff;
+      margin: 0px;
+    }
+    header{
+      display: block;
+    }
+    footer{
+      position: absolute;
+      bottom: 0px;
+    }
